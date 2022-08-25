@@ -1,0 +1,29 @@
+.nav{
+  height: 74px;
+  background: var(--color-black-l20);
+  display: flex;
+  align-items: center;
+  &_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_logo{
+
+  }
+  &_menu{
+    display: flex;
+
+
+    &_item{
+      &:not(:last-child){
+        margin: 0 24px 0 0;
+      }
+    }
+    &_link{
+      color: var(--color-white-main);
+
+
+    }
+  }
+}

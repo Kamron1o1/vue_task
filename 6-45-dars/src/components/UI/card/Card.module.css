@@ -1,0 +1,15 @@
+.card {
+  width: 372px;
+  height: 161px;
+  border-radius: 12px;
+  padding: var(--size-md);
+  background: var(--color--white-main); }
+  .card_name, .card .country.id {
+    font-weight: 700;
+    font-size: var(--size-md); }
+  .card_country {
+    margin: 16px 0 0 0; }
+  .card_id {
+    margin: 16px 0 0 0; }
+
+/*# sourceMappingURL=Card.module.css.map */

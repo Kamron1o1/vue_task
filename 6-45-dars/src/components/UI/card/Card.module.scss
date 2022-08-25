@@ -1,0 +1,19 @@
+.card{
+  width: 372px;
+  height: 161px;
+  border-radius: 12px;
+  padding: var(--size-md);
+  background: var(--color--white-main);
+  &_name,.country.id{
+    font-weight: 700;
+    font-size: var(--size-md);
+  }
+  &_country{
+    margin: 16px 0 0 0;
+
+  }
+
+  &_id{
+    margin: 16px 0 0 0;
+  }
+}

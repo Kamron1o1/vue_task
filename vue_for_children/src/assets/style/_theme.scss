@@ -1,0 +1,9 @@
+html:root{
+  --color-black-main: #1D202D;
+  --color-white-main: #FFFFFF ;
+  --color-black-l20:#252C37 ;
+}
+body{
+  background: var(--color-black-main);
+  color: var(--color-white-main);
+}

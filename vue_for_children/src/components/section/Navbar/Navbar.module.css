@@ -1,0 +1,17 @@
+.nav {
+  height: 74px;
+  background: var(--color-black-l20);
+  display: flex;
+  align-items: center; }
+  .nav_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .nav_menu {
+    display: flex; }
+    .nav_menu_item:not(:last-child) {
+      margin: 0 24px 0 0; }
+    .nav_menu_link {
+      color: var(--color-white-main); }
+
+/*# sourceMappingURL=Navbar.module.css.map */
