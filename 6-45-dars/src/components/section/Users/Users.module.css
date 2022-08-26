@@ -1,0 +1,14 @@
+.users {
+  padding: var(--gap-xs) 0; }
+  .users_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .users_container {
+    margin: var(--gap-lg) 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: var(--gap-md);
+    grid-row-gap: var(--gap-md); }
+
+/*# sourceMappingURL=Users.module.css.map */

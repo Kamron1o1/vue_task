@@ -1,20 +1,17 @@
 <template>
 <Users/>
-    <Card/>
 </template>
 
 <script>
-import '@/assets/style/index.scss'
-import Users from "./components/section-users/Users";
-import Card from "./components/UI/card/Card";
+import "@/assets/style/index.scss"
+import Users from "./components/section/Users/Users";
 
 export default {
   name: 'App',
-    components: {
-      Users, Card
-    },
+  components: {
+      Users,
+  }
 }
-
 </script>
 
 

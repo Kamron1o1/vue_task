@@ -1,0 +1,12 @@
+.btn {
+  cursor: pointer;
+  min-width: 184px;
+  height: 64px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 22px;
+  background: var(--light-primary-main);
+  color: var(--light-white-main); }
+
+/*# sourceMappingURL=Button.module.css.map */

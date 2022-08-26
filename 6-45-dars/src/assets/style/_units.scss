@@ -1,6 +1,9 @@
-html:root{
-  --size-sm: 16px;
-  --size-md: 24px;
-  --size-lg: 48px;
-  --size-xl: 64px;
+html:root {
+  --gap-xs: 6px;
+  --gap-sm: 16px;
+  --gap-md: 24px;
+  --gap-lg: 48px;
+  --gap-xl: 72px;
+
+  --transition: 150ms;
 }

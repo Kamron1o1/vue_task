@@ -1,0 +1,25 @@
+.users{
+  padding: var(--gap-xs) 0;
+
+  &_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  &_title{
+
+  }
+  &_input{
+
+  }
+  &_container{
+    margin: var(--gap-lg) 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: var(--gap-md);
+    grid-row-gap: var(--gap-md);
+
+
+  }
+}

@@ -1,17 +1,18 @@
 <template>
-    <Container !class="container">
+    <div :class="styles.container">
         <slot>
-            Hello beach
         </slot>
-    </Container>
+    </div>
 </template>
 
 <script>
-    import styles from "@/components/Container/container.module.scss"
+    import styles from "./Container.module.scss"
     export default {
         name: "Container",
-        components:{
-            styles
+        data(){
+            return{
+                styles
+            }
         }
     }
 </script>

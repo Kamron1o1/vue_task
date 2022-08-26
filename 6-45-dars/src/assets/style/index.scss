@@ -1,2 +1,41 @@
-@import "defults","typography","units","theme";
+@import "defaults", "units", "typography", "theme";
 
+.input {
+  width: 100%;
+  max-width: 568px;
+  display: flex;
+  flex-direction: column;
+
+  &_label {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 var(--gap-xs) 0;
+  }
+
+  &_area {
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 1.2em;
+    border: 0.15em solid transparent;
+    border-radius: 0.5em;
+    transition: border-color ease var(--transition);
+
+    &::placeholder {
+      color: var(--light-black-main);
+      opacity: 0.65;
+    }
+
+    &:focus {
+      border-color: var(--light-primary-main);
+
+      &::placeholder {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.error &_area{
+    border-color: red;
+  }
+}

@@ -1,7 +1,13 @@
-html:root{
-  --color--white-D20: #EDEFFC;
-  --color--white-main: #FFFFFF;
-  --color--black-main: #060912;
+html:root {
+  --light-white-d20: #edeffc;
+  --light-white-main: #ffffff;
 
-  --color--primary-main: #694DFA;
+  --light-black-main: #060912;
+
+  --light-primary-main: #694dfa;
+}
+
+body {
+  color: var(--light-black-main);
+  background-color: var(--light-white-d20);
 }
